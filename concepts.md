@@ -25,3 +25,23 @@ console.log(een);
 console.log(een);
 // undefined
 ```
+
+### Hoisting
+Variable and function declarations are put on top of your code. This means that you can call a function before it is declared because Javascript buts the functions on top of your code. For example:
+
+```js
+niks();
+
+function niks() {
+var een = 1;
+console.log(1);
+}
+
+```
+
+You would expect this to be undefined but because of hoisting the function is found and the console will say:
+```js
+1
+```
+
+
