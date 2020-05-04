@@ -41,9 +41,7 @@ The first one we are going to discuss is const. Const is short for constant. Con
 the value. It creates a read-only variable which can't be changed.
 
 The second one we are going to discuss is let. When let is given a value that value can be changed in a function (so on the local
-scope) but that wont change the value on the global scope. While that will happen if you use 
-The
-
+scope) but that wont change the value on the global scope. 
 
 
 
