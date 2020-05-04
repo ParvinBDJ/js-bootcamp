@@ -44,4 +44,15 @@ You would expect this to be undefined but because of hoisting the function is fo
 1
 ```
 
+### Closures
+A function is not only a function. It is also a closure, which means that it can take variables from outside of the function itself and use it. For example:
+```js
+const me = "Parvin";
 
+function roepNaam(){
+console.log("Hallo" + me);
+}
+
+roepNaam();
+// Hallo Parvin
+```
