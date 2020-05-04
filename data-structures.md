@@ -28,6 +28,19 @@ cijfer3: 23,
 cijfer4: 53
 };
 ```
-  
-  
+
+If you would want to have the number 64 in the console you should write it like this;
+```js
+const obj {
+cijfer0: 1,
+cijfer1: 45,
+cijfer2: 64,
+cijfer3: 23,
+cijfer4: 53
+};
+
+console.log(obj.cijfer2);
+// 64
+```
+ 
 
