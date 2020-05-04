@@ -13,16 +13,13 @@ it better (which doesn't mean that i am 100% comfortable with them after the boo
 Common higher-order functions like: map, reduce & filter are the most used higher-order functions because by it as a higher-
 order functions you don't have to write a loop. An example of such a functions is found below:
 
-_const doorDeHelft= [10, 20, 30, 40];_
+```js
 
-_const som = doorDeHelft.map(function(isDoorDeHelft){_
+const doorDeHelft= [10, 20, 30, 40];
+const som = doorDeHelft.map(function(isDoorDeHelft){
+return isDoorDeHelft / 2;
+}
 
-_return isDoorDeHelft / 2;_
-
-_}_
-
-_console.log(isDoorDeHelft);_
-
-### Console:
-
-_["Parvin", "Lola", "Jantje", "Niemand"]_
+console.log(isDoorDeHelft);
+\\ ["Parvin", "Lola", "Jantje", "Niemand"]
+```
