@@ -1,1 +1,2 @@
 # Concepts
+### Binding and Scopes
