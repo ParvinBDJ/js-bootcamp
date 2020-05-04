@@ -17,16 +17,16 @@ new way of writing variables.
 
 The new thing where you can write functions differently is mostly about a new way that is called "arrow functions". It's
 where you would write a normal function like this:
-
-_function niks(x) { <br>_
-_x = x + 1<br>_
-_return x;<br>_
-_}<br>_
-
+```js
+function niks(x) { 
+x = x + 1<br>
+return x;<br>
+}
+```
 And a arrow function, which is a shorter way of writing a function, like this:
-
-_var niks = (x) => x + 1;_
-
+```js
+var niks = (x) => x + 1;
+```
 Even though it is completely the same function, you write them differently. I guess i like the way the arrow functions looks
 but even after some practice i am not completely comfortable with the way you write it. I think this will hit me later on during
 the course.
