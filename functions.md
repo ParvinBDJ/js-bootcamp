@@ -3,7 +3,16 @@
 _Now we are going to talk about functions and what i have learned in het Javascript Bootcamp._
 
 Functions are one of the most important thing in Javascript. They can be used to perform a set of statements or calculate
-a sum. But before they do so you have to call the function so it knows when to perform its statements. 
+a sum. But before they do so you have to call the function so it knows when to perform its statements. A normal functions looks like this:
+
+```js
+function hallo(){           (Here you make the function)
+console.log("Hello World");
+}
+
+console.log(hallo);         (Here you call the function)
+// "Hello World"            (Here is the result which comes in the console)
+```
 
 During the bootcamp i went over the basics of functions and i  went deeper into functions. Its there i found out about 
 higher-order functions. Higher-order functions are functions within a function. So you can call it a higher-order functions
