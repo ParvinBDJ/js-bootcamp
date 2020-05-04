@@ -18,7 +18,7 @@ console.log(arr[0]);
 You migth be thinking: Why say: _arr[0]_ if you want to call the first number. That is because you start counting from 0 so 0 = 1 and 1 = 45.
 
 ### Objects
-Objects are kind of similar to arrays. You can also store several values within it. But you write an object like _var : value_ look for the example below:
+Objects are kind of similar to arrays. You can also store several values within it. But you write an object like _var : value_ and it has a lot more options and a lot more things you can store within them. Look below for the example :
 ```js
 const obj {
 cijfer0: 1,
