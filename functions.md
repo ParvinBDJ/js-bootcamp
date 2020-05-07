@@ -30,5 +30,5 @@ return isDoorDeHelft / 2;
 }
 
 console.log(isDoorDeHelft);
-// ["Parvin", "Lola", "Jantje", "Niemand"]
+// [5, 10, 15, 20"]
 ```
