@@ -4,11 +4,6 @@ Each binding is created within a scope. A binding created outside of a function 
 ```js
 var een = 1;
 
-function niks(){
-console.log(een);
-// 1
-}
-
 console.log(een);
 // 1
 ```
